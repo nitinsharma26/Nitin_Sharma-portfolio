@@ -1,4 +1,58 @@
 /* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.projects {
+    margin: 20px 0;
+}
+
+.project {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+.view-more {
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Button for viewing more/less */
+.view-more:hover {
+    color: #0056b3;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
