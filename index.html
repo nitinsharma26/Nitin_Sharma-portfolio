@@ -54,22 +54,79 @@
 
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project-item">
-            <h3>Automated Pipeline Deployment Tool</h3>
-            <p>Built with Spring Boot and GitLab APIs to automate pipelines for multiple environments, reducing manual effort by 10 hours/week.</p>
+        <div class="projects">
+
+            <!-- First 3 projects -->
+            <div class="project">
+                <h3>Productivity-Enhancing Tools for Team (Dec 2024)</h3>
+                <p>Engineered a pipeline automation tool with Spring Boot, GitLab API, and Feign Client, cutting manual effort by 10 hours/week. Enhanced team efficiency through multithreaded execution and Cron-based scheduling, ensuring fault tolerance and seamless deployment operations.</p>
+                <p><strong>Skills:</strong> Core Java · Spring Boot · Multithreading · Gitlab · Scheduling · Microservices · SQL</p>
+            </div>
+    
+            <div class="project">
+                <h3>TKE Env Manager (Sep 2024)</h3>
+                <p>Developed a GUI tool using Node.js, ReactJS, Electron, and pkg for managing 20 TKE environments in Octant, automating unnecessary tasks, and enabling seamless environment switching. This tool helped reduce manual efforts by 5 hours/week, boosting efficiency by 5% and alleviating the burden of repetitive tasks, leading to significant time savings and improved productivity across teams.</p>
+                <p><strong>Skills:</strong> React.js · Nodejs · Windows Batch Scripting · pkg · electron</p>
+            </div>
+    
+            <div class="project">
+                <h3>Microservices Architecture for Online Shopping App (Aug 2023 - Oct 2023)</h3>
+                <p>Designed and implemented a scalable microservices-based architecture using Java, featuring distinct services for product management, order processing, notifications, and inventory control. Integrated Netflix Eureka for service discovery, implemented circuit breakers for fault tolerance, and employed an API gateway for efficient routing.</p>
+                <p><strong>Tech Stack:</strong> Java · Spring Boot · Apache Kafka · Docker · Kubernetes · MongoDB Atlas · MySQL</p>
+            </div>
+    
+            <!-- Hidden projects initially -->
+            <div class="hidden" id="more-projects">
+                <div class="project">
+                    <h3>Multi-Modal Route Planner (Sep 2022 - Oct 2022)</h3>
+                    <p>Developed a multi-modal route planner using Java, Spring Boot, MySQL, HTML, and CSS. Implemented advanced Graph algorithms to determine the fastest, cheapest, and shortest-time routes between states. Users can select between bus, train, or flight options, with prices dynamically adjusting based on the chosen mode of transport.</p>
+                    <p><strong>Skills:</strong> Java · Spring Boot · MySQL · HTML · CSS</p>
+                </div>
+    
+                <div class="project">
+                    <h3>ToDo App (Aug 2022 - Sep 2022)</h3>
+                    <p>The project uses express routes to post updates and delete the data in the MongoDB database and subsequently render results on the website for the user. Features: Add a new task, Delete tasks, Update tasks, and Delete all tasks.</p>
+                    <p><strong>Tech Stack:</strong> HTML · CSS · NodeJS · MongoDB · EJS · Mongoose · Javascript · ExpressJS</p>
+                </div>
+    
+                <div class="project">
+                    <h3>Music Player (Mar 2022 - Apr 2022)</h3>
+                    <p>Created a music player with a clean user interface to play music in the browser. Implemented features like play/pause button, previous/next track button, and seek slider that can be used to control the playback.</p>
+                    <p><strong>Tech Stack:</strong> HTML · CSS · Javascript</p>
+                </div>
+    
+                <div class="project">
+                    <h3>WeatherApp (Dec 2021 - Jan 2022)</h3>
+                    <p>A simple Weather web app using OpenWeather API. Users can search weather for any city or place, and the background image changes to a popular landmark of the searched place.</p>
+                    <p><strong>Tech Stack:</strong> HTML · CSS · Javascript · Postman</p>
+                </div>
+    
+                <div class="project">
+                    <h3>Laptop Price Predictor (Jul 2021 - Sep 2021)</h3>
+                    <p>A web app that predicts the price of a laptop when provided the configurations. Extracted laptop data and used several data wrangling techniques to clean the data. Deployed the Machine Learning model using the Streamlit library on Heroku.</p>
+                    <p><strong>Tech Stack:</strong> Python · scikit-learn · Streamlit · Heroku</p>
+                </div>
+    
+                <div class="project">
+                    <h3>Sudoku Solver (Sep 2020 - Oct 2020)</h3>
+                    <p>Developed a Sudoku solver using the backtracking algorithm to solve Sudoku puzzles. The project includes a generator to create Sudoku puzzles.</p>
+                    <p><strong>Tech Stack:</strong> HTML · CSS · Javascript</p>
+                </div>
+            </div>
+    
+            <!-- View More button -->
+            <p class="view-more" onclick="toggleProjects()">View More</p>
+    
         </div>
 
-        <div class="project-item">
-            <h3>Snake and Ladder Game</h3>
-            <p>Created using design patterns in Java, ensuring scalability and maintainability with SOLID principles.</p>
-        </div>
     </section>
 
     <section id="achievements">
         <h2>Achievements</h2>
         <ul>
             <li>1st Place in Ami-Techfiesta 2021 (National Coding Competition) - 1700+ competitors.</li>
-            <li>Bronze Medal at National Coding Competition (SGGS College, Delhi University).</li>
+            <li>Won bronze medal and a cash prize in National Level
+                Coding (SGGS College, Delhi University).</li>
             <li>World Rank under 75 on GeeksforGeeks, with 1230+ questions solved.</li>
             <li>19th globally in June Cook-off 2021 on CodeChef.</li>
             <li>12th rank out of 10,000 users on Workat.tech.</li>
