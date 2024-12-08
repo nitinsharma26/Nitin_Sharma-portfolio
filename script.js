@@ -11,3 +11,16 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         alert("Please fill in all the fields.");
     }
 });
+
+function toggleProjects() {
+    var moreProjects = document.getElementById('more-projects');
+    var viewMoreBtn = document.querySelector('.view-more');
+
+    if (moreProjects.classList.contains('hidden')) {
+        moreProjects.classList.remove('hidden');
+        viewMoreBtn.textContent = 'View Less';
+    } else {
+        moreProjects.classList.add('hidden');
+        viewMoreBtn.textContent = 'View More';
+    }
+}
